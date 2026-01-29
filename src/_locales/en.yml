@@ -1,0 +1,882 @@
+common:
+  view_all: View ALL
+  play_all: Play ALL
+  loading: Loading...
+  search: Search
+  undo: UNDO
+  days: days
+  view: no view | {count} view | {count} views
+  viewWithoutNum: ' views'
+  danmaku: no danmaku | {count} danmaku | {count} danmakus
+  danmakuWithoutNum: ' danmakus'
+  like: no like | {count} like | {count} likes
+  likeWithoutNum: ' likes'
+  anime_follow_count: no follow | {count} follow | {count} follows
+  year: year ago | years ago
+  month: month ago | months ago
+  week: week ago | weeks ago
+  day: day ago | days ago
+  hour: hour ago | hours ago
+  minute: minute ago | minutes ago
+  second: second ago | seconds ago
+  yesterday: yesterday
+  just_now: just now
+  please_log_in_first: Please log in first
+  login: Login
+  save_to_watch_later: Save to Watch later
+  added: Added
+  performance_impact_warn: This feature may cause performance *DECREASE*!
+  no_data: No data available
+  no_more_content: No more content now, owari da
+  operation:
+    add: Add
+    edit: Edit
+    delete: Delete
+    confirm: Confirm
+    cancel: Cancel
+    enable: Enable
+    disable: Disable
+    refresh: Refresh
+    reset: Reset
+    import: Import
+    export: Export
+    undo_refresh: Undo Refresh
+    remove: Remove
+  table:
+    index: Index
+    title: Title
+    name: Name
+    remark: Remark
+    operations: Operations
+  position:
+    left: Left
+    right: Right
+    top: Top
+    bottom: Bottom
+iframe_drawer:
+  open_in_new_tab: Open in new tab
+  close: Close
+  press_esc_again_to_close: Press Esc again to close
+settings:
+  title: Settings
+  menu_plugin_components_and_pages: BewlyCat Interface
+  menu_bilibili_features_enhancement: Bilibili Features
+  menu_appearance: Appearance
+  menu_compatibility: Compatibility
+  menu_about: About
+  menu_changelog: Changelog
+  experimental: Experimental
+
+  # Plugin Components & Pages submenu
+  plugin:
+    general: General
+    video_card: Video Card
+    topbar: Top Bar
+    dock_and_sidebar: Dock
+    home: Home
+    search: Search
+    volume_balance: Volume Normalization
+
+  # Bilibili Features Enhancement submenu
+  bilibili_features:
+    comments: Comments
+    video_playback: Player
+    auto_play: Auto Play
+    vip_features: VIP Features
+    vip_features_placeholder: VIP feature enhancements will be added here in future updates.
+
+  changelog_placeholder: Changelog content will be displayed here.
+
+  group_common: Common
+  group_language: Language
+  group_ad_blocking: Ad Blocking
+  group_comments: Comments
+  group_languages_and_fonts: Languages & Fonts
+  group_link_opening_behavior: Link Opening Behavior
+  group_video_card: Video Card
+  group_performance: Frosted Glass & Performance
+  group_player_settings: Player Settings
+  group_player_components: Player Components
+  group_playback_behavior: Playback Behavior
+  group_auto_play: Auto Play
+  group_random_play: Random Play
+  group_topbar: Top Bar
+  group_navigation: Dock & Sidebar
+  group_dock: Dock
+  group_sidebar: Sidebar
+  group_sidebar_desc: >-
+    Located on the right or left side of pages other than the homepage,
+    typically includes a light/dark mode toggle button and settings button.
+  group_color: Color
+  group_wallpaper: Wallpaper
+  group_logo: LOGO
+  group_search_bar: Search Bar
+  group_hot_search: Hot Search
+  group_search_results: Search Results
+  group_recommendation_mode: '"For you" Recommendation Mode'
+  group_recommendation_filters: '"For you" Recommendation Filters'
+  group_recommendation_filters_desc: >
+    Do not set the restricted value too large, as this may increase loading
+    time! Frequent requests may result in IP blocking by Bilibili!
+  group_following: Following
+  group_search_page_mode: Search Page Mode
+  group_home_tabs: Home Tabs
+  group_home_layout: Home Layout
+  btn:
+    authorize: Authorize
+    revoke: Revoke
+    open_settings: Open Settings...
+  touch_screen_optimization: Touch screen optimization
+  touch_screen_optimization_desc: >
+    After this setting is turned on, like the top bar, you must click on items
+    to view more information instead of hovering over them. (This feature is not
+    supported by the old top bar.)
+  show_home_button_in_touch_mode: Show Home button
+  show_home_button_in_touch_mode_desc: When touch screen optimization is enabled, show a Home button next to the top bar Logo to navigate directly to the homepage.
+  chk_box:
+    show: Show
+    hidden: Hidden
+  enable_grid_layout_switcher: Enable grid layout switcher
+  enable_horizontal_scrolling: Enable horizontal scrolling
+  enable_horizontal_scrolling_desc: >-
+    After enabling, mouse scrolling will directly scroll the horizontal scroll
+    list.
+  select_language: Language
+  select_language_opt:
+    english: English
+    mandarin_cn: Mandarin - Simplified Chinese
+    mandarin_tw: Mandarin - Traditional Chinese
+    jyut: Cantonese
+  customize_font: Customize font
+  customize_font_opt:
+    default: Bilibili Default
+    recommend: Recommend
+    custom: Custom
+  customize_font_desc: >-
+    For users who favor the old form of Chinese characters, we recommend <a
+    class="link" href="https://github.com/GuiWonder/Shanggu"
+    target="_blank">Shanggu Fonts (尚古字型)</a> and <a class="link"
+    href="https://github.com/ayaka14732/FanWunHak" target="_blank">Fan Wun Hak
+    (繁媛黑體)</a>.
+
+    These fonts also possess the capability to convert simplified Chinese into
+    traditional characters.
+  override_danmaku_font: Override danmaku font
+  override_danmaku_font_desc: >
+    Set the danmaku font to your customized font to override the default. The
+    video player won't be able to change it afterwards.
+  remove_the_indent_from_chinese_punctuation: Remove the indent from Chinese punctuation
+  remove_the_indent_from_chinese_punctuation_desc: >
+    By default, Bilibili will specifically handle Chinese punctuation to achieve
+    left alignment. If you are using a custom font, it is recommended to remove
+    the indent.
+  enable_frosted_glass: Enable frosted glass effect
+  frosted_glass_blur_intensity: Frosted glass blur intensity
+  disable_shadow: Disable shadow
+  link_opening_behavior_opt:
+    current_tab: Current tab
+    current_tab_if_not_homepage: Current tab if not the homepage, otherwise new tab
+    background: New tab,but in background
+    new_tab: New tab
+    drawer: Open in drawer
+  top_bar_link_opening_behavior: Top bar link opening behavior
+  video_card_link_opening_behavior: Video card and bangumi card link opening behavior
+  search_bar_link_opening_behavior: Search bar link opening behavior
+  close_drawer_without_pressing_esc_again: Close the drawer without pressing <kbd>Esc</kbd> again
+  block_ads: Block ads
+  block_top_search_page_ads: Block Bilibili top search page ads
+  block_top_search_page_ads_desc: >
+    Sometimes, the ads above search results are actually year-end summaries or
+    annual reports. If you don't want these to be accidentally removed, please
+    disable this option.
+  video_default_player_mode: Default video display mode
+  video_danmaku_default_state: Default danmaku state
+  video_danmaku_default_state_desc: Automatically toggle danmaku when a video loads, or leave it unchanged.
+  video_danmaku_default_state_opt:
+    system: Do not adjust
+    on: Always enable
+    off: Always disable
+  video_player_mode:
+    default: Default
+    web_fullscreen: Web Fullscreen
+    widescreen: Widescreen
+  enable_video_preview: Enable video preview feature (if possible)
+  enable_video_ctrl_bar_on_video_card: Display the video control bar on the video card
+  hover_video_card_delayed: Delayed video preview on hover over the video card
+  show_video_card_recommend_tag: Show plugin-calculated recommendation tags
+  show_video_card_recommend_tag_desc: Display tags calculated by the plugin, such as "High Engagement", "Popular", etc.
+  auto_hide_top_bar: Auto-hide top bar
+  video_page_top_bar_config: Video page top bar configuration
+  video_page_top_bar_config_desc: Configure the display behavior of the top bar on video pages
+  video_page_top_bar_config_opt:
+    alwaysShow: Always show
+    alwaysHide: Always hide
+    showOnMouse: Show on mouse
+    showOnScroll: Show on scroll
+  always_use_transparent_top_bar: Always use transparent (legacy) style for top bar
+  show_top_bar_theme_color_gradient: Show theme color gradient in top bar (only works in dark mode)
+  show_bewly_or_bili_top_bar_switcher: Show BewlyBewly/Bilibili top bar switcher
+  show_bewly_or_bili_page_switcher: Show BewlyBewly/Bilibili page switcher
+  top_bar_icon_badges: Icon badges
+  top_bar_icon_badges_opt:
+    number: Number
+    dot: Dot
+    none: Do not show
+  show_watch_later_badge: Show watch later badge
+  show_bcoin_receive_reminder: VIP B-coin receive reminder
+  auto_receive_bcoin_coupon: Auto receive B-coin coupon
+  auto_receive_bcoin_coupon_desc: When enabled, B-coin coupons will be automatically received when detected
+  auto_receive_vip_exp: Auto receive VIP experience
+  auto_receive_vip_exp_desc: When enabled, will automatically receive daily VIP experience
+  open_notifications_page_as_drawer: Open notifications page as drawer
+
+  # Video Card Grid Settings
+  group_video_card_grid: Video Card Grid
+  grid_breakpoints: Grid Breakpoints
+  grid_breakpoints_desc: Set the number of columns at different screen widths. When screen width is greater than or equal to the set value, use the corresponding columns.
+  grid_min_width: Width ≥
+  grid_columns: Show
+  grid_columns_unit: cols
+  grid_add_breakpoint: Add Breakpoint
+
+  home_adaptive_title_auto_size: Auto adjust title font size
+  home_adaptive_title_auto_size_desc: Adjusts title font size based on the grid width
+  home_adaptive_title_font_size: Title font size
+  home_adaptive_title_font_size_desc: Fixed title font size (px); disabled when auto is on
+  video_card_title_font_size: Title Font Size
+  video_card_title_font_size_desc: Controls the font size of the video card title.
+  video_card_author_font_size: UP info font size
+  video_card_author_font_size_desc: Controls the font size for uploader names shown on video cards.
+  video_card_meta_font_size: Tag & timestamp font size
+  video_card_meta_font_size_desc: Controls the font size for tags and timestamps shown below the title.
+  video_card_shadow_curve: Shadow gradient curve
+  video_card_shadow_curve_desc: Customize the gradient effect of the bottom shadow on video cards
+  video_card_shadow_curve_hint: Drag the line to create control points, right-click to delete
+  video_card_shadow_height: Shadow height
+  video_card_shadow_height_desc: Adjust the height ratio of the shadow covering the cover
+  video_card_shadow_reset: Reset shadow settings
+  video_card_layout: Video card layout
+  video_card_layout_desc: Switch between the redesigned card and the legacy layout.
+  video_card_layout_option:
+    modern: Modern layout
+    old: Classic layout
+  font_size_option:
+    xs: Extra small
+    sm: Small
+    base: Medium
+    lg: Large
+  group_topbar_components: Top Bar Components Settings
+  topbar_components_adjustment: Top Bar Components Badge Settings
+  topbar_components_adjustment_desc: Configure the badge display mode for each top bar icon
+  group_topbar_pinned_channels: Top Bar Pinned Channels
+  topbar_pinned_channels_desc: Choose items from the logo dropdown to keep directly on the top bar and arrange their priority.
+  topbar_pinned_channels_title: Pinned channels
+  topbar_pinned_channels_hint: Click a tile to pin or unpin it; the order follows the sequence of your clicks. Items toward the end hide first when space is tight.
+  topbar_pinned_channels_all_selected: All channels have already been pinned.
+  topbar_pinned_channels_empty: You have not pinned any channels yet.
+  topbar_pinned_channels_order_tip: Selection order follows your clicks. Click an item again to unpin it.
+  badge_type: Badge Type
+  always_use_dock: Always use the dock
+  always_use_dock_desc: >-
+    The dock will always be visible and the sidebar will be hidden. We also
+    recommend enabling auto-hide for the dock.
+  auto_hide_dock: Automatically hide the dock
+  half_hide_dock: Half-hide dock
+  dock_position: Dock position
+  dock_position_desc: Position on screen.
+  dock_content_adjustment: Dock content adjustment
+  dock_content_adjustment_desc: The page of the first activated dock item will be the startup page.
+  dock_item_open_in_new_tab: Open in new tab
+  dock_item_use_original_bili_web_page: Use the original Bilibili web page
+  disable_dock_glowing_effect: Disable the dock glowing effect
+  disable_light_dark_mode_switcher: Disable light/dark mode switcher
+  back_to_top_and_refresh_buttons_are_separated: Separate Back to Top and Refresh Buttons
+  sidebar_position: Sidebar position
+  auto_hide_sidebar: Automatically hide the sidebar
+  theme: Theme
+  theme_opt:
+    light: Light
+    dark: Dark
+    auto: Auto
+  theme_color: Theme color
+  dark_mode_base_color: Dark mode base color
+  gradient_theme_color_background: Use a gradient theme color as the background in dark mode
+  wallpaper_mode: Wallpaper mode
+  wallpaper_mode_desc: >
+    By URL: Choose an image from the Internet and use its URL to set it as the
+    wallpaper.
+  wallpaper_mode_opt:
+    build_in: Built-in
+    by_url: By URL
+  choose_ur_wallpaper: Choose your wallpaper
+  image_url: Image URL
+  image_url_hint: >-
+    URL examples:
+    https://cdn.jsdelivr.net/gh/BewlyBewly/Imgs/wallpapers/rocky-mountain-cloudscape.jpg
+
+    https://cdn.jsdelivr.net/gh/BewlyBewly/Imgs/wallpapers/green-white-mountains.jpg
+  enable_wallpaper_masking: Enable wallpaper masking
+  wallpaper_cache_time: Wallpaper cache time
+  wallpaper_cache_time_desc: Set the cache time (hours) for URL wallpapers. 0 means no caching, reload every time. Locally uploaded images are not affected by this setting.
+  no_cache: No cache
+  wallpaper_mask_opacity: Wallpaper masking opacity
+  wallpaper_blur_intensity: Wallpaper blur intensity
+  customize_css: Customize CSS
+  customize_css_desc: >-
+    If you are unfamiliar with CSS, please DO NOT modify CSS. Doing so may cause
+    unexpected display issues.
+
+    If you encounter any problems after modifying CSS, please reinstall
+    BewlyBewly.
+  logo_color: Logo color
+  logo_color_opt:
+    white: White
+    theme_color: Theme Color
+  search_results_pagination_mode_opt:
+    scroll: Infinite Scroll
+    pagination: Pagination
+  enable_logo_glowing_effect: Enable glowing effect for the logo
+  logo_visibility: Logo visibility
+  bg_darkens_when_the_search_bar_is_focused: Background darkens when the search bar is focused
+  bg_blurs_when_the_search_bar_is_focused: Background blurs when the search bar is focused
+  choose_search_bar_focused_character: Choose the character that appears when the search bar is focused
+  show_hot_search_in_top_bar: Show hot search in top bar
+  show_hot_search_in_top_bar_desc: Display hot search list in the top bar search box
+  show_hot_search_in_search_page: Show hot search in search page
+  show_hot_search_in_search_page_desc: Display hot search ranking on the search page
+  show_search_recommendation: Show search recommendation
+  show_search_recommendation_desc: Display recommended search terms as placeholder in the search box, and search for them when pressing Enter with an empty input
+  use_plugin_search_results_page: Use plugin search results page
+  use_plugin_search_results_page_desc: When enabled, searches will use the plugin's built-in search results page with category filtering and more features
+  search_results_pagination_mode: Search results pagination mode
+  search_results_pagination_mode_desc: 'Choose how search results are displayed: infinite scroll or page-based navigation'
+  individually_set_search_page_wallpaper: Individually set search page wallpaper
+  recommendation_mode: Recommendation mode
+  recommendation_mode_desc: >
+    If you want to use the recommendation algorithm on the app, please ensure
+    that you authorize the BewlyBewly to use the access key first.
+  auto_switch_recommendation_mode: Auto switch recommendation mode
+  auto_switch_recommendation_mode_desc: >
+    Automatically switch from App mode to Web mode when App recommendation fails.
+  authorize_app: Authorize the BewlyBewly to use the access key
+  authorize_app_desc: >
+    After authentication, you will receive the video recommendations based on
+    the bilibili app recommendation algorithm. The access key is valid for about
+    one month. After that, remember to re-authorize the BewlyBewly to use the
+    access key.
+  authorize_app_more_info_access_key: More information about the access key
+  scan_qrcode_desc: >-
+    Use the Bilibili mobile app to scan this QR code in order to authorize the
+    access key.
+  disable_filters_for_followed_users: Disable filters for followed users
+  disable_filters_for_followed_users_desc: >
+    If you enable this option, all filters you set will be disabled for the
+    users you follow.
+  filter_out_vertical_videos: Filter out vertical videos (only works on the app recommendation mode)
+  filter_by_view_count: Filter by view count
+  filter_by_view_count_desc: Filtered out videos with less than the view count you set.
+  filter_by_view_count_unit: views
+  filter_by_duration: Filter by duration
+  filter_by_duration_desc: Filtered out videos with less than the duration you set.
+  filter_by_duration_unit: sec
+  filter_by_publish_time: Filter by publish time
+  filter_by_publish_time_desc: Filter out videos published more than the specified number of days ago (only works in Web recommendation mode, minimum 7 days).
+  filter_by_publish_time_unit: days
+  filter_item_already_exist: This filter item already exists!
+  filter_by_title: Filter by title
+  filter_by_title_desc: >-
+    Filtered out the videos that contain the titles you set (case-insensitive).
+
+    Alternatively, use regex, such as <code>/abc&#124;\d+/</code>, wrapped in
+    <code>/</code>.
+
+    <br/>
+
+    In the table below, you can press the <kbd>Enter</kbd> key to add a new
+    filter or confirm a modification.
+
+    Press the <kbd>Esc</kbd> key to cancel the modification.
+
+    Double-click the column to edit the current column.
+  filter_by_user: Filter by user
+  filter_by_user_desc: >-
+    Filtered out the videos that are uploaded by the username (full name,
+    case-insensitive) or MID you set.
+
+    Alternatively, use regex, such as <code>/abc&#124;\d+/</code>, wrapped in
+    <code>/</code>.
+
+    <br/>
+
+    In the table below, you can press the <kbd>Enter</kbd> key to add a new
+    filter or confirm a modification.
+
+    Press the <kbd>Esc</kbd> key to cancel the modification.
+
+    Double-click the column to edit the current column.
+  filter_by_user_table:
+    username_or_mid: Username / MID
+  following_tab_show_livestreaming_videos: Show Live-streaming videos in the "Following" tab
+  following_filter_charging_videos: Filter charging exclusive videos
+  following_filter_charging_videos_desc: When enabled, paid videos that require charging to watch will be hidden in the "Following" page
+  following_filter_dynamic_videos: Filter dynamic videos
+  following_filter_dynamic_videos_desc: When enabled, videos marked as dynamic videos will be hidden in the "Following" page
+  use_following_new_layout: Use new layout for Following tab
+  use_following_new_layout_desc: Display followed UPs list on the left and video feed on the right
+  following_inactive_days: UP inactive days
+  following_inactive_days_desc: When a UP has not posted for the specified number of days or has no videos, they will be automatically moved to the blacklist. They will be removed from the blacklist when appearing in ALL view or when clicked
+  preserve_for_you_state: Preserve "For You" pre-switch state
+  preserve_for_you_state_desc: When switching from dock to other pages, preserve the browsing state of the "For You" page and maintain content before switching when returning
+  use_search_page_mode: Use search page mode on homepage
+  settings_shared_with_the_search_page: Settings shared with the search page
+  settings_shared_with_the_search_page_desc: Those settings are used in common with the search page.
+  search_page_mode_wallpaper_fixed: Make the wallpaper of the search page mode fixed
+  home_tabs_adjustment: Tabs adjustment
+  home_tabs_adjustment_desc: The first activated tab is the default page.
+  always_show_tabs_on_home_page: Always show tabs on the home page
+  topbar_visibility: BewlyBewly's top bar visibility
+  topbar_visibility_desc: >-
+    If you are using Bilibili Evolved's top bar, you can turn BewlyBewly's top
+    bar off here.
+  use_original_bilibili_homepage: Use the original Bilibili homepage
+  use_original_bilibili_homepage_desc: >-
+    After you change it, the page will automatically refresh if you are on the
+    homepage!
+  use_original_bilibili_topbar: Use the original Bilibili top bar
+  adapt_to_other_page_styles: Adapt to other page styles
+  adapt_to_other_page_styles_desc: Adapt to some common pages to match with the BewlyBewly theme.
+  follow_bilibili_evolved_color: Follow the Bilibili Evolved theme color
+  follow_bilibili_evolved_color_desc: >-
+    After changing the theme color in Bilibili Evolved, you will need to
+    re-select this option in order to update the theme color.
+  links: Links
+  import_settings: Import Settings
+  export_settings: Export Settings
+  export_settings_desc: >-
+    Some sensitive content, such as access key, will not be exported and may
+    need to be reacquired again.
+  reset_settings: Reset Settings
+  reset_settings_confirm: >-
+    Reset settings?
+
+    This operation cannot be reversed. Are you sure you want to reset your
+    settings?
+  contributors: BewlyBewly History Contributors
+  enable_settings_sync: Allow syncing settings
+  enable_settings_sync_desc: >-
+    Sync extension settings across different devices (requires signing into the
+    browser account)
+  disable_auto_play_collection: Auto disable collection autoplay
+  disable_auto_play_collection_desc: Automatically turn off the autoplay feature for video collections
+  keep_collection_video_default_mode: Keep collection videos in default mode
+  keep_collection_video_default_mode_desc: >-
+    When enabled, collection videos will always use the default player mode and
+    won't apply widescreen or fullscreen settings
+  remember_playback_rate: Remember playback rate
+  remember_playback_rate_desc: >
+    When enabled, the player will remember your last set playback rate and
+    automatically apply it when opening videos
+  auto_exit_fullscreen_on_end: Auto exit fullscreen/webFullscreen when video ends
+  auto_exit_fullscreen_on_end_desc: >
+    When enabled, the player will automatically exit fullscreen mode when the video finishes playing
+  auto_exit_fullscreen_exclude_auto_play: Exclude auto-play mode
+  auto_exit_fullscreen_exclude_auto_play_desc: >
+    When enabled, videos in auto-play mode will not auto-exit fullscreen when finished, allowing continuous viewing
+  use_bilibili_default_auto_play: Use Bilibili's default auto-play behavior
+  use_bilibili_default_auto_play_desc: >
+    When enabled, Bilibili's default auto-play behavior will be used, and custom auto-play settings below will be hidden and disabled
+  auto_play_mode_default: Bilibili Default
+  auto_play_mode_auto_play: Auto-play
+  auto_play_mode_auto_play_with_recommend: Auto-play (with Recommendations)
+  auto_play_mode_pause_at_end: Pause at End
+  auto_play_mode_loop: Single Loop
+  auto_play_multipart: Multi-part Videos
+  auto_play_multipart_desc: Choose auto-play behavior for multi-part videos
+  auto_play_collection: Collection Videos
+  auto_play_collection_desc: Choose auto-play behavior for collection videos
+  auto_play_recommend: Recommended Videos
+  auto_play_recommend_desc: Choose auto-play behavior when video ends
+  auto_play_playlist: Playlist Videos
+  auto_play_playlist_desc: Choose auto-play behavior for playlist videos
+  enable_random_play: Enable video collection random play
+  enable_random_play_desc: Add random play feature for multi-part videos or collections
+  random_play_mode: Random play mode
+  random_play_mode_desc: Choose how random play is enabled
+  random_play_mode_manual: Manual toggle
+  random_play_mode_auto: Auto enable
+  min_videos_for_random: Minimum videos for random play
+  min_videos_for_random_desc: Random play will only be enabled when video count is no less than this value
+  random_play: Random Play
+  random_play_enabled: Random play enabled
+  random_play_disabled: Random play disabled
+  random_play_not_enabled: Random play feature not enabled
+  random_play_min_videos_required: At least {count} videos required to enable random play
+  enable_undo_refresh_button: Enable Undo Refresh Button(only effective in Web recommendation mode)
+  enable_undo_refresh_button_desc: >-
+    After refreshing the page, display an undo button that restores the content
+    before the refresh when clicked.
+  shortcuts:
+    title: Keyboard Shortcuts
+    enable_all_shortcuts_toggle: Enable Keyboard Shortcuts
+    enable_all_shortcuts_toggle_desc: Enable or disable all keyboard shortcuts functionality
+    group:
+      official_bilibili: Bilibili Official Shortcuts
+      homepage: Homepage Shortcuts
+      general: General Shortcuts
+      fullscreen_mode: Fullscreen Mode Shortcuts
+      global_actions: Global Actions
+    official:
+      play_pause: Play/Pause
+      forward: Forward 5s
+      backward: Backward 5s
+      volume_up: Volume Up
+      volume_down: Volume Down
+      exit_fullscreen: Exit Fullscreen
+      fullscreen: Toggle Fullscreen
+      danmu_toggle: Toggle Danmu
+      mute: Toggle Mute
+      prev_video: Play Previous Video
+      next_video: Play Next Video
+      speed_1: Set Speed to 1x
+      speed_2: Set Speed to 2x
+      input_danmu: Input Danmu
+    item:
+      edit_key: Edit Shortcut
+      cancel_edit: Cancel Edit
+      reset_default: Reset to Default
+    reset_all_button: Reset All Shortcuts
+    reset_all_ext_shortcuts: Reset All Extension Shortcuts
+    press_keys: Click the input box, then press the shortcut keys
+    danmu_status: Show Danmu Status
+    danmu_status_desc: Show current danmu toggle status
+    web_fullscreen: Web Fullscreen
+    web_fullscreen_desc: Toggle web fullscreen mode
+    widescreen: Widescreen
+    widescreen_desc: Toggle widescreen mode
+    short_step_backward: Quick Rewind
+    short_step_backward_desc: Rewind 5 seconds
+    long_step_backward: Long Rewind
+    long_step_backward_desc: Rewind 30 seconds
+    play_pause_ext: Play/Pause
+    play_pause_ext_desc: Play or pause video (extension)
+    short_step_forward: Quick Forward
+    short_step_forward_desc: Forward 5 seconds
+    long_step_forward: Long Forward
+    long_step_forward_desc: Forward 30 seconds
+    next_video_ext: Next Video
+    next_video_ext_desc: Play next video in playlist (extension)
+    pip: Picture in Picture
+    pip_desc: Toggle picture-in-picture mode
+    turn_off_light: Turn Off Light
+    turn_off_light_desc: Toggle theater mode
+    caption: Captions
+    caption_desc: Toggle captions
+    increase_playback_rate: Increase Speed
+    increase_playback_rate_desc: Increase playback speed
+    decrease_playback_rate: Decrease Speed
+    decrease_playback_rate_desc: Decrease playback speed
+    reset_playback_rate: Reset Speed
+    reset_playback_rate_desc: Reset to normal playback speed
+    previous_frame: Previous Frame
+    previous_frame_desc: Go to previous frame (when paused)
+    next_frame: Next Frame
+    next_frame_desc: Go to next frame (when paused)
+    replay: Replay
+    replay_desc: Start playing from beginning
+    increase_video_size: Increase Video Size
+    increase_video_size_desc: Make video larger
+    decrease_video_size: Decrease Video Size
+    decrease_video_size_desc: Make video smaller
+    reset_video_size: Reset Video Size
+    reset_video_size_desc: Reset to default video size
+    video_title: Video Title
+    video_title_desc: Show/Hide video title
+    video_time: Video Time
+    video_time_desc: Show/Hide video time
+    clock_time: Clock
+    clock_time_desc: Show/Hide system time
+    home_refresh: Homepage Refresh
+    home_refresh_desc: Refresh homepage content
+    toggle_follow: Toggle Follow/Unfollow
+    toggle_follow_desc: Toggle follow status of the uploader on video page
+  clean_url_argument: Clean URL Tracking Parameters
+  clean_url_argument_desc: Automatically clean tracking parameters from URLs to make links cleaner
+  show_ip_location: Show IP home location
+  show_ip_location_desc: Display IP home in the video/dynamic comment area
+  show_sex: Show user gender
+  show_sex_desc: Display user gender in the video/dynamic comment area
+  adjust_comment_image_height: Adjust comment image height
+  adjust_comment_image_height_desc: Automatically adjust comment image height to match actual aspect ratio and prevent distortion
+  video_player_scroll: Scroll after adjusting the display mode
+  video_player_scroll_desc: >-
+    When enabled, it will automatically scroll to the appropriate position when
+    the default mode is widescreen and default.
+  enlarge_favorite_dialog: Enlarge favorite dialog
+  enlarge_favorite_dialog_desc: When enabled, the favorite dialog on video pages will be displayed in a larger size for easier viewing and management.
+  external_watch_later_button: External watch later button
+  external_watch_later_button_desc: When enabled, a standalone watch later button will be displayed on the video page toolbar for quick access.
+  volume_normalization:
+    title: Volume Normalization
+    enable: Enable volume normalization
+    enable_desc: Real-time detection of voice loudness, automatically adjust volume to a consistent level
+    target_volume: Target volume
+    target_volume_desc: Target loudness level (0-100), 50 = -20dBFS, higher = louder
+    strength: Smoothness strength
+    strength_desc: Volume peak smoothing strength (1-20), recommended 8-15, usually no adjustment needed
+    adaptive_speed: Response speed
+    adaptive_speed_desc: Speed to reach target volume (1-10), higher = faster, recommended 3-7
+    voice_gate: Voice detection threshold
+    voice_gate_desc: Sounds below this level are ignored (-60 to -10 dB), recommended -40 to -30
+    debug: Debug mode
+    debug_desc: Output volume normalization debug info to console
+    usage_guide:
+      title: Usage Guide
+      desc: |-
+        How it works:
+        • Real-time analysis of voice loudness in videos (ignoring background and silence)
+        • Automatically adjusts gain based on detected loudness to normalize all videos
+
+        Parameters:
+        • Target Volume (0-100): 0 = -30dBFS (quiet), 50 = -20dBFS (moderate), 100 = -10dBFS (loud)
+        • Response Speed (1-10): Controls time to reach target volume, higher = faster stabilization
+
+        Important notes:
+        • This is an experimental feature and may not work in some situations
+        • Refresh the page for changes to take effect
+        • Preserves original audio quality, only adjusts volume level
+  menu_volume_normalization: Volume Normalization
+  group_fonts: Font
+  group_visual_effects: Visual Effects
+  visibility: show
+auth:
+  auth_access_key_first: Before doing this, authorize BewlyBewly to use the access key.
+topbar:
+  switch_to_bewly_top_bar: Switch to BewlyBewly top bar
+  switch_to_bili_top_bar: Switch to BiliBili/Bilibili-Evolved top bar
+  sign_in: Sign in
+  notifications: Notifications
+  moments: Moments
+  favorites: Favorites
+  history: History
+  watch_later: Watch Later
+  creative_center: Creative Center
+  upload: Upload
+  logo_dropdown:
+    anime: Anime
+    movies: Movies
+    chinese_anime: Chinese Animation
+    tv_shows: TV Shows
+    variety_shows: Variety Shows
+    documentary_films: Documentary Films
+    animations: Animations
+    gaming: Gaming
+    kichiku: Kichiku
+    music: Music
+    dance: Dance
+    cinephile: Cinephile
+    showbiz: Showbiz
+    knowledge: Knowledge
+    technology: Technology
+    news: News
+    foods: Foods
+    shortplay: Short Play
+    cars: Cars
+    fashion: Fashion
+    sports: Sports
+    animals: Animals
+    vlog: VLOG
+    painting: Painting
+    ai: AI
+    home: Home & Real Estate
+    outdoors: Outdoors
+    gym: Fitness
+    handmake: Handicraft
+    travel: Travel
+    rural: Rural
+    parenting: Parenting
+    health: Health
+    emotion: Emotion
+    life_joy: Life Interests
+    life_experience: Life Experience
+    charitable_events: Charitable Events
+    articles: Articles
+    live: Live
+    activities: Activities
+    paid_courses: Courses
+    community: Community
+    music_plus: New Song Hotlist
+    game_center: Game Center
+    comic_con_and_goods: Comic Con & Goods
+    manga: Manga
+    game_competitions: Game Competitions
+  user_dropdown:
+    money: 'Money: '
+    b_coins: 'B-coins: '
+    exp_desc: 'Current XP: {current_exp}; need {need_exp} more for LV {level}'
+    following: FOLLOWING
+    followers: FOLLOWERS
+    posts: POSTS
+    bilibili_premium: Bilibili Premium
+    account_settings: Account settings
+    uploads_manager: Uploads manager
+    b_coins_wallet: B-coins wallet
+    orders: Orders
+    workshop: My workshop
+    my_stream_info: My stream info
+    my_courses: My courses
+    log_out: Log out
+    bilibili_premium_rewards: Premium Member Rewards
+    last_login_time: Last login
+    last_login_location: Location
+  noti_dropdown:
+    replys: Replys
+    mentions: Mentions
+    likes: Likes
+    messages: Messages
+    chats: Chats
+  moments_dropdown:
+    tabs:
+      videos: Videos
+      all: All
+      live: Live
+      articles: Articles
+    uploaded: 'uploaded: '
+    now_streaming: 'now streaming: '
+    live_status: LIVE
+  upload_dropdown:
+    article: Article
+    music: Music
+    sticker: Sticker
+    video: Video
+    manager: Manager
+dock:
+  search: Search
+  home: Home
+  anime: Anime
+  history: History
+  favorites: Favorites
+  watch_later: Watch later
+  moments: Moments
+  dark_mode: Dark Mode
+  light_mode: Light Mode
+  settings: Settings
+video_card:
+  operation:
+    not_interested: Not Interested
+    open_in_new_tab: Open in New Tab
+    open_in_background: Open In Background
+    open_in_new_window: Open in New Window
+    open_in_current_tab: Open in Current Tab
+    open_in_drawer: Open in Drawer
+    copy_video_link: Copy Video Link
+    copy_bv_number: Copy BV Number
+    copy_av_number: Copy AV Number
+    view_the_original_cover: View the Original Cover
+    follow_user: Follow User
+    unfollow_user: Unfollow User
+    block_user: Block User
+  follow_user_confirm:
+    title: Confirm Follow User
+    message: Are you sure you want to follow {name}?
+    warning: After following, you will see the latest content from this user.
+  unfollow_user_confirm:
+    title: Confirm Unfollow User
+    message: Are you sure you want to unfollow {name}?
+    warning: After unfollowing, this user's content will no longer appear in your following list.
+  block_user_confirm:
+    title: Confirm Block User
+    message: Are you sure you want to block {name}?
+    warning: After blocking, you will not be able to see any content published by this user.
+  group_contribution: '{firstAuthor} and {num} others contributed'
+  video_removed: Video removed
+home:
+  tell_us_why: Choose a reason why
+  not_interested_desc: >-
+    You can use <kbd>↑</kbd> and <kbd>↓</kbd> to choose the reason, or using
+    number keys to choose the reason directly, press <kbd>Enter</kbd> to
+    confirm.
+  for_you: For you
+  following: Following
+  trending: Trending
+  ranking: Ranking
+  subscribed_series: Subscribed Series
+  weekly: Weekly
+  precious: Must Watch
+  live: Live
+  moments: Moments
+  uploaders_with_updates: no uploader with updates | {count} uploader with updates | {count} uploaders with updates
+ranking:
+  all: All
+  original_content: Original Content
+  debut_work: Debut Work
+anime:
+  total_episodes: EP {ep}
+  update_to_n_episodes: Update to EP {ep}
+  your_watch_list: Your Watchlist
+  recommended_for_you: Recommended for you
+  havent_seen: Haven't seen
+  popular_anime: Popular Anime
+  follow: '{num} follow'
+  anime_timetable:
+    title: Anime Timetable
+    days_of_week:
+      mon: MON
+      tue: TUE
+      wed: WED
+      thu: THU
+      fri: FRI
+      sat: SAT
+      sun: SUN
+history:
+  title: Watch History
+  search_watch_history: Search watch history
+  clear_all_watch_history: Clear all watch history
+  clear_all_watch_history_confirm: >-
+    Clear all watch history?
+
+    This operation cannot be reversed. Are you sure you want to clear all watch
+    history?
+  pause_watch_history: Pause watch history
+  pause_watch_history_confirm: |-
+    Pause watch history?
+    Are you sure you want to pause watch history?
+  turn_on_watch_history: Turn on watch history
+  turn_on_watch_history_confirm: Turn on watch history? Are you sure you want to turn on watch history?
+favorites:
+  unfavorite: Unfavorite
+  unfavorite_confirm: >-
+    Remove selected video(s)?
+
+    This operation cannot be reversed. Are you sure you want to remove the
+    selected video(s) from your favorites?
+  global_search_hint: Search for all favorites
+  global_search_placeholder: Search all favorites
+  search_all_folders: all
+  search_current_folder: current
+  search_placeholder: Search for current favorites
+watch_later:
+  title: Watch Later
+  clear_all: Clear all watch later
+  clear_all_confirm: >-
+    Clear all watch later?
+
+    This operation cannot be reversed. Are you sure you want to clear all watch
+    later?
+  remove_watched_videos: Remove watched videos
+  remove_watched_videos_confirm: >-
+    Remove watched videos?
+
+    This operation cannot be reversed. Are you sure you want to remove watched
+    videos?
+  play_video: Play
+  play_in_watch_later: Playlist
+  remove_from_watch_later: Remove
+search_bar:
+  history_title: Search History
+  hot_search_title: Hot Search
+  clear_history: Clear search history
+search_page:
+  hot_search_ranking: Hot Search Ranking
+  loading: Loading...
+  no_hot_search_data: No hot search data available
+  view_all_esports: View All Esports
