@@ -319,13 +319,13 @@ export function attachToVideo(video: HTMLVideoElement) {
     log('Successfully attached')
   }
   catch (e: any) {
-    if (e.message?.includes('already connected')) {
-      // Ignore
+    if (e.name === 'InvalidStateError' || e.message?.includes('already connected') || e.message?.includes('already associated')) {
+      // Video element already has a source node, skip silently
+      log('Video already has audio source, skipping')
     }
     else {
       error('Error attaching to video', e)
     }
-    // We don't set hasAttached=false here because we might want to retry or it might be fine
   }
 }
 

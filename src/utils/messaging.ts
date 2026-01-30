@@ -18,6 +18,30 @@ export async function sendMessage<T = any, R = any>(type: string, data?: T): Pro
   return browser.runtime.sendMessage(message)
 }
 
+// 消息处理器注册表（单一分发，避免 Safari 多监听器响应冲突）
+const messageHandlers = new Map<string, MessageHandler>()
+let listenerRegistered = false
+
+function ensureListener() {
+  if (listenerRegistered)
+    return
+  listenerRegistered = true
+
+  browser.runtime.onMessage.addListener((message: any, sender) => {
+    if (!message?.type)
+      return false
+
+    const handler = messageHandlers.get(message.type)
+    if (!handler)
+      return false
+
+    const result = handler(message.data, sender)
+    if (result instanceof Promise)
+      return result
+    return Promise.resolve(result)
+  })
+}
+
 /**
  * 在 background 中监听来自 content script 的消息
  */
@@ -25,16 +49,6 @@ export function onMessage<T = any, R = any>(
   type: string,
   handler: MessageHandler<T, R>,
 ): void {
-  browser.runtime.onMessage.addListener((message: any, sender) => {
-    if (message?.type === type) {
-      const result = handler(message.data, sender)
-      // 如果返回 Promise，需要返回 true 表示异步响应
-      if (result instanceof Promise) {
-        return result
-      }
-      return Promise.resolve(result)
-    }
-    // 返回 false 或 undefined 表示不处理此消息
-    return false
-  })
+  messageHandlers.set(type, handler as MessageHandler)
+  ensureListener()
 }
